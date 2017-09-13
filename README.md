@@ -6,7 +6,7 @@ Mock Authentication API is a utility module which provides straight-forward way 
 To install mock-authentication-api, use [npm](http://github.com/npm/npm):
 
 ```
-npm install momittedhentication-api
+npm install mock-authentication-api
 ```
 
 ## Usage
