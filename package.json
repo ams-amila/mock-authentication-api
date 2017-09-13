@@ -1,6 +1,6 @@
 {
   "name": "mock-authentication-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Mock Authentication API is a utility module which provides straight-forward way to mocking authentication in your app. User needs to provide application's user store and use relevant APIs to manage authentication related operations",
   "main": "./dist/index.js",
   "scripts": {
