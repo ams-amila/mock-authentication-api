@@ -12,7 +12,7 @@ npm install momittedhentication-api
 ## Usage
 
 ```javascript
-import {AuthenticationApi} from 'mock-authentication-api';
+import * as AuthenticationApi from 'mock-authentication-api';
 
 // setting configurations (netWorkLatency,userStore)
 AuthenticationApi.configure(netWorkLatency,userStore);
@@ -24,7 +24,7 @@ AuthenticationApi.authenticate(username,password);
 ```
 ### Example
 ```javascript
-import {AuthenticationApi} from 'mock-authentication-api';
+import * as AuthenticationApi from 'mock-authentication-api';
 
 const netWorkLatency = 1000;
 const userStore = [
@@ -55,3 +55,5 @@ AuthenticationApi.authenticate('User1','pass1').then(user => {
   - `password` - password of the user who is trying to authenticated.[REQUIRED]
   - Returns authenticated `user` for `successfull` authentication 
   - Returns `Invalid User Credentials` for `unsuccessfull` authentication 
+- `getUserStore()` - getting user store
+- `getNetworkLatency()` - getting network latency
